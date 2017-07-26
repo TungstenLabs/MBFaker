@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
 	      s.osx.deployment_target = '10.7'
 	      s.license               = 'MIT'
 	      s.summary               = 'Library that generates fake data.'
-	      s.homepage              = 'https://github.com/ynd-consult/MBFaker'
+	      s.homepage              = 'https://github.com/ynd-consult-ug/MBFaker'
 	      s.author                = { 'Michał Banasiak' => 'm.banasiak@icloud.com' }
-	      s.source                = { :git => 'https://github.com/ynd-consult/MBFaker', :tag => s.version.to_s }
+	      s.source                = { :git => 'https://github.com/ynd-consult-ug/MBFaker', :tag => s.version.to_s }
 	      s.resources             = 'MBFaker/**/*.yml'
 
 	      s.description           = 'This library is a port of Ruby Faker library that generates fake data.'
